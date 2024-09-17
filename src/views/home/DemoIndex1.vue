@@ -18,7 +18,7 @@ const showCube = () => {
   container.value.appendChild(renderer.domElement)
 
   const geometry = new THREE.BoxGeometry(1, 1, 1)
-  const material = new THREE.MeshBasicMaterial({ color: 0x5ac6c6ff }) // 5AC6C6FF
+  const material = new THREE.MeshBasicMaterial({ color: 0xff0000 }) // FF0000
   const cube = new THREE.Mesh(geometry, material)
   scene.add(cube)
 
